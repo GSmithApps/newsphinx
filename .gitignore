@@ -1,0 +1,41 @@
+# General
+*.log
+*.pyc
+*.pyo
+*.db
+.DS_Store
+Thumbs.db
+
+# Sphinx build output
+_build/
+_build_doctrees/
+build/
+
+# Virtual environments
+.env/
+venv/
+ENV/
+
+# Pytest
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+.sublime-workspace
+
+# User-specific Sphinx configuration
+doc/sphinx/_build/
+doc/sphinx/_static/
+doc/sphinx/_templates/
